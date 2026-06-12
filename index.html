@@ -84,10 +84,10 @@
   <header>
     <div class="subtitle">Travel Wellness Protocol</div>
     <h1>Hydration, Movement &amp; Nutrition</h1>
-    <div class="meta-info">12 items &nbsp;&middot;&nbsp; Pre-flight, In-flight &amp; On arrival</div>
+    <div class="meta-info">7 items &nbsp;&middot;&nbsp; Pre-flight, In-flight &amp; On arrival</div>
     <div class="progress-container">
       <div class="progress-labels">
-        <span class="progress-count" id="progress-text">0 of 12 complete</span>
+        <span class="progress-count" id="progress-text">0 of 7 complete</span>
         <span class="progress-percentage" id="progress-percent">0%</span>
       </div>
       <div class="progress-bar-bg"><div class="progress-bar-fill" id="progress-fill"></div></div>
@@ -191,72 +191,30 @@
   <div class="section-nutrition">
     <div class="section-header">
       <div class="section-title">Nutrition</div>
-      <div class="section-tally"><span id="nutrition-done">0</span> / 6 done</div>
+      <div class="section-tally"><span id="nutrition-done">0</span> / 1 done</div>
     </div>
     <div class="exercise-card" data-section="nutrition">
       <div class="exercise-main-row" onclick="toggleTip(this, event)">
         <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">Eat a real meal before departure</div><div class="exercise-notes">Don't rely on airports &mdash; fuel up beforehand</div></div>
+        <div class="exercise-info">
+          <div class="exercise-name">Pack satiating snacks</div>
+          <div class="exercise-notes">Jerky, mixed nuts, roasted edamame, protein bars, banana, apple</div>
+        </div>
         <span class="exercise-badge badge-nutrition">Pre-flight</span>
         <button class="tip-toggle-btn">&#9658;</button>
       </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Airport food is overpriced and nutritionally thin. A balanced meal with protein, healthy fat, and complex carbs stabilizes blood sugar for hours and prevents the tired/irritable cycle that derails travel days.</div></div>
-    </div>
-    <div class="exercise-card" data-section="nutrition">
-      <div class="exercise-main-row" onclick="toggleTip(this, event)">
-        <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">Pack high-protein snacks</div><div class="exercise-notes">Jerky, mixed nuts, protein bars, hard-boiled eggs</div></div>
-        <span class="exercise-badge badge-nutrition">Pre-flight</span>
-        <button class="tip-toggle-btn">&#9658;</button>
-      </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Protein keeps hunger at bay longer than carbs or fat alone. Having reliable snacks means you're never forced to choose between bad airport food and going hungry. Aim for 15&ndash;20g protein per snack.</div></div>
-    </div>
-    <div class="exercise-card" data-section="nutrition">
-      <div class="exercise-main-row" onclick="toggleTip(this, event)">
-        <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">Avoid heavy, fried, or gassy foods</div><div class="exercise-notes">Beans, cruciferous veg, carbonated drinks &mdash; skip day of</div></div>
-        <span class="exercise-badge badge-nutrition">Pre-flight</span>
-        <button class="tip-toggle-btn">&#9658;</button>
-      </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Cabin pressure is lower than sea level &mdash; gut gases expand by 25&ndash;30% at altitude. Foods that cause bloating on the ground cause significantly more discomfort in the air.</div></div>
-    </div>
-    <div class="exercise-card" data-section="nutrition">
-      <div class="exercise-main-row" onclick="toggleTip(this, event)">
-        <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">Take travel supplements</div><div class="exercise-notes">Vitamin D, magnesium glycinate, zinc &mdash; with food</div></div>
-        <span class="exercise-badge badge-nutrition">In-flight</span>
-        <button class="tip-toggle-btn">&#9658;</button>
-      </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Travel suppresses immune function. Vitamin D supports immunity and mood; magnesium glycinate aids sleep quality; zinc defends against respiratory viruses. Take with a snack to avoid nausea.</div></div>
-    </div>
-    <div class="exercise-card" data-section="nutrition">
-      <div class="exercise-main-row" onclick="toggleTip(this, event)">
-        <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">Eat light mid-flight</div><div class="exercise-notes">Small portions &mdash; digestion slows significantly at altitude</div></div>
-        <span class="exercise-badge badge-nutrition">In-flight</span>
-        <button class="tip-toggle-btn">&#9658;</button>
-      </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Reduced oxygen and pressure impair digestive efficiency. Heavy meals in-flight lead to bloating, lethargy, and poor sleep. Opt for salads, proteins, or fruit &mdash; eat until satisfied, not full.</div></div>
-    </div>
-    <div class="exercise-card" data-section="nutrition">
-      <div class="exercise-main-row" onclick="toggleTip(this, event)">
-        <label class="checkbox-container" onclick="event.stopPropagation()"><input type="checkbox" class="exercise-checkbox" onchange="updateProgress()"><span class="custom-checkmark"></span></label>
-        <div class="exercise-info"><div class="exercise-name">First meal at destination &mdash; prioritize protein</div><div class="exercise-notes">30&ndash;40g protein within 2 hrs of landing</div></div>
-        <span class="exercise-badge badge-nutrition">Arrival</span>
-        <button class="tip-toggle-btn">&#9658;</button>
-      </div>
-      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>A protein-rich first meal stabilizes blood sugar after a day of irregular eating and signals your body to anchor to the new local schedule.</div></div>
+      <div class="tip-dropdown"><div class="tip-content"><strong>Why it matters</strong>Having reliable snacks means you're never forced to choose between bad airport food and going hungry. Prioritize options with protein and fiber — they keep hunger at bay far longer than carb-heavy alternatives.</div></div>
     </div>
   </div>
 
   <div class="completion-banner" id="completion-banner">
     <h2>Checklist complete &#10003;</h2>
-    <p>You've covered all 12 items. Travel well.</p>
+    <p>You've covered all 7 items. Travel well.</p>
   </div>
 </div>
 
 <script>
-  var TOTAL = 12;
+  var TOTAL = 7;
   function toggleTip(rowEl, event) {
     rowEl.parentElement.classList.toggle('tip-open');
   }
@@ -276,7 +234,8 @@
       var boxes = document.querySelectorAll('[data-section="' + s + '"] .exercise-checkbox');
       var done = 0;
       boxes.forEach(function(cb) { if (cb.checked) done++; });
-      document.getElementById(s + '-done').textContent = done;
+      var el = document.getElementById(s + '-done');
+      if (el) el.textContent = done;
     });
     document.getElementById('completion-banner').classList.toggle('show', completed === TOTAL);
   }
